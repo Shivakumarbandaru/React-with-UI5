@@ -19,7 +19,7 @@ export default function Combox()
   
   return(
     <>
-     {loading ? <p>Loading....</p> : Details.map(Detail => {
+     {loading ? <p>Loading....</p> : Details.map((Detail) => {
        return(
         <ComboBox
         className=""
